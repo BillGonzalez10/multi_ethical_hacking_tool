@@ -27,6 +27,8 @@ It features modules for brute-forcing, network sniffing, a phishing page simulat
    Unauthorized use of this tool against systems you do not own or have explicit permission to test is illegal.
    The creator is not responsible for any misuse or damage caused.
 
+![Screenshot 2025-04-18 124629](https://github.com/user-attachments/assets/f3f87720-49f5-4226-acda-dcd7d819e19a)
+
 
 
    
