@@ -8,9 +8,25 @@ It features modules for brute-forcing, network sniffing, a phishing page simulat
 ## Features
 
 - 🔐 **Brute-Force Attack Tool** — Automate login attacks with customizable wordlists.  
-- 🎯 **Credential Phishing Cloner** — Clone login pages and capture test credentials locally.  
+- 🎯 **Credential Phishing Simulator** — login page simulator and capture credentials locally.  
 - 🧠 **Keylogger** — Record keystrokes for educational research purposes.  
 - 🛡️ **Network Sniffer** — Capture and display basic HTTP traffic (uses Scapy).  
 - 🔍 **Reconnaissance Tools** — Scan targets and gather network information.  
 - 🔑 **Hash Cracker** — Basic dictionary attack against common hash types.
 
+## Installation
+
+1. **Clone the repository:**
+   git clone https://github.com/BillGonzalez10/multi_ethical_hacking_tool.git
+   cd multi_ethical_hacking_tool
+   pip install -r requirements.txt
+   python main.py
+
+   # Disclaimer
+   RomulusX is intended for educational purposes only.
+   Unauthorized use of this tool against systems you do not own or have explicit permission to test is illegal.
+   The creator is not responsible for any misuse or damage caused.
+
+
+
+   
